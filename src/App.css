@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper{
+  border:2px solid red;
+  width: 70%;
+  display:flex;
+  margin:auto;
+  padding:2rem;
+  max-width: 70%;
+  gap:2rem;
+  border-radius: 12px;
+  overflow: scroll;
+}
+.wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+
+.card{
+ background-color: antiquewhite;
+  border-radius: 5px;
+  min-height: 200px;
+ min-width: 200px;
+ 
+ 
+}
+
+img{
+border-radius: 50%;
+border:2px solid red;
+
+border-color:rgba(92, 25, 47, 0.831);
+align-items: center;
+padding-top: 0px;
+margin-top: 15px;
+
+}
